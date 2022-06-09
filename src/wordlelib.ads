@@ -14,7 +14,10 @@ package Wordlelib with Preelaborate is
 
    type Guess_Array is array (Positive range <>) of Guess_Result;
 
-   subtype Word is String (1 .. Word_Length);
+   subtype Valid_Chars is Character range 'A' .. 'Z';
+
+   subtype Word is String (1 .. Word_Length) with
+     Dynamic_Predicate => (for all Char of Word => Char in Valid_Chars);
 
    type Attempt_Array is array (Positive range <>) of Word;
 

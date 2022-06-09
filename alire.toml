@@ -5,5 +5,9 @@ version = "0.1.0-dev"
 authors = ["Alejandro R. Mosteo"]
 maintainers = ["Alejandro R. Mosteo <alejandro@mosteo.com>"]
 maintainers-logins = ["mosteo"]
+
 [[depends-on]]
 aaa = "~0.2.5"
+
+[build-switches]
+"*".Ada_Version = "GNAT_Extensions"
