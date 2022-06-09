@@ -4,6 +4,10 @@ generic
    Word_Length : Positive := 5;
 package Wordlelib with Preelaborate is
 
+   --  Re-export parameter
+
+   Word_Length_Used : constant Positive := Word_Length;
+
    --  Types
 
    type Game (<>) is tagged private;
