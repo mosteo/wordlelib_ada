@@ -1,5 +1,5 @@
 name = "wordlelib"
-description = "Shiny new project"
+description = "Library to track progress in a game of Wordle"
 version = "0.1.0"
 
 authors = ["Alejandro R. Mosteo"]
