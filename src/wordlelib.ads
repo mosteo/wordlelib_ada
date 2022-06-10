@@ -10,6 +10,10 @@ package Wordlelib with Preelaborate is
 
    --  Types
 
+   --  The nomenclature used is: an attempt is a plain word; a guess is the
+   --  result of matching the attempt with the target word. So, a guess is
+   --  an array of Hit/Miss/Missplaced, one per letter in the Attempt.
+
    type Game (<>) is tagged private;
 
    type Guess_Kind is (Hit, Missplaced, Miss);
