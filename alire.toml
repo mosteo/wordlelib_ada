@@ -6,6 +6,9 @@ authors = ["Alejandro R. Mosteo"]
 maintainers = ["Alejandro R. Mosteo <alejandro@mosteo.com>"]
 maintainers-logins = ["mosteo"]
 
+licenses = "MIT"
+tags = ["wordle", "game", "console", "terminal"]
+
 [[depends-on]]
 aaa = "~0.2.5"
 
