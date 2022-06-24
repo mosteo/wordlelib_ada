@@ -11,6 +11,3 @@ tags = ["wordle", "game", "console", "terminal"]
 
 [[depends-on]]
 aaa = "~0.2.5"
-
-[build-switches]
-"*".Ada_Version = "GNAT_Extensions"
